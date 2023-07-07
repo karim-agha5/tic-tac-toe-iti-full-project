@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 11, 2023, 10:45:23 PM
+    Author     : ITI
+*/
+
+.RoundedButton {
+    -fx-background-radius: 5em;
+}
+
+.RoundedButton .text {
+    -fx-fill: blue;
+}
+
+.RoundedTile {
+    -fx-background-radius: 5em;
+    -fx-background-color: white;
+}
+
+
+.ResultLabel .text {
+    -fx-fill: red;
+    -fx-stroke: #ff3333;
+    -fx-stroke-width: 4px;
+}

@@ -1,0 +1,72 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+
+#background {
+    -fx-background-image: url("/tictactoe/resources/images/background.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: repeat;
+    -fx-background-size: stretch;
+}
+
+.GameLabel .text {
+    -fx-fill: red;
+    -fx-stroke: #ff3333;
+    -fx-stroke-width: 4px;
+}
+
+.RoundedButton {
+    -fx-background-radius: 5em;
+}
+
+.RoundedButton .text {
+    -fx-fill: blue;
+}
+
+.RoundedTile {
+    -fx-background-radius: 5em;
+    -fx-background-color: white;
+}
+
+.RoundedBar {
+    -fx-background-radius: 5em;
+    -fx-background-color: white;
+    -fx-padding: 15 10 15 10;
+}
+
+.RoundedBar .text {
+    -fx-fill: grey;
+}
+
+.ActionButton {
+    -fx-base: red;
+}
+
+.ActionButton .text {
+    -fx-fill: white;
+}
+
+.CardView {
+    -fx-background-color: -fx-body-color;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+}
+
+.list-view {
+    -fx-background-color: transparent;
+}
+
+.list-view .list-cell {
+    -fx-background-color: transparent;
+}
+
+.list-view .text {
+    -fx-fill: black;
+}
+
+
+.CheckedImage {
+    -fx-image: url("/tictactoe/resources/images/accept_icon.png"); 
+}
+
